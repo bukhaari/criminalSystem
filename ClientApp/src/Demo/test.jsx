@@ -1,8 +1,8 @@
 import React from 'react';
 import { Component } from 'react';
-import { Row, Col, Card} from 'react-bootstrap';
+import { Card} from 'react-bootstrap';
 
-import Aux from '../hoc/_Aux'; 
+// import Aux from '../hoc/_Aux'; 
 // import Card from '../App/components/MainCard';
 
 class Test extends Component {

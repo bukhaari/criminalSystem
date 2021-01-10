@@ -69,6 +69,20 @@ export default {
                             type:'item',
                             url: '/test'
 
+                        },
+                        {
+                            id: 'PersonalInfo',
+                            title: "PersonalInfo",
+                            type:'item',
+                            url: '/personal'
+
+                        },
+                        {
+                            id: 'PoliceStation',
+                            title: "PoliceStation",
+                            type:'item',
+                            url: '/policeSation'
+
                         }
                     ]
                 }

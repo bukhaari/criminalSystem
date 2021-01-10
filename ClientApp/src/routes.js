@@ -27,6 +27,8 @@ const OtherSamplePage = React.lazy(() => import('./Demo/Other/SamplePage'));
 const OtherDocs = React.lazy(() => import('./Demo/Other/Docs'));
 
 const Test = React.lazy(() => import('./Demo/test'));
+const Personal = React.lazy(() => import('./components/personInfo'))
+const PoliceStation = React.lazy(() => import('./components/policeStationInfo'))
 
 
 const routes = [
@@ -44,6 +46,9 @@ const routes = [
     { path: '/sample-page', exact: true, name: 'Sample Page', component: OtherSamplePage },
     { path: '/docs', exact: true, name: 'Documentation', component: OtherDocs },
     {path: '/test', exact: true, name:"Test", component:Test },
+    {path: '/personal', exact: true, name:"Personal", component:Personal},
+    {path: '/policeSation', exact: true, name:"Personal", component:PoliceStation},
+
 ];
 
 export default routes;

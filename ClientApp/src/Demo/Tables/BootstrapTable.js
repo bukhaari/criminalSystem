@@ -11,7 +11,7 @@ class BootstrapTable extends React.Component {
                     <Col>
                         <Card>
                             <Card.Header>
-                                <Card.Title as="h5">Basic Table</Card.Title>
+                            <Card.Title as="h5">Basic Table</Card.Title>
                                 <span className="d-block m-t-5">use bootstrap <code>Table</code> component</span>
                             </Card.Header>
                             <Card.Body>
